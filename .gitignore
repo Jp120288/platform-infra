@@ -1,1 +1,45 @@
+# Terraform working directory
+.terraform/
 
+# Terraform state
+*.tfstate
+*.tfstate.*
+
+# Terraform plan files
+*.tfplan
+*.tfplan.*
+
+# Terraform crash logs
+crash.log
+crash.*.log
+
+# Terraform lock info
+.terraform.tfstate.lock.info
+
+# Variable files may contain secrets
+*.tfvars
+*.tfvars.json
+
+# Allow example variable files
+!*.tfvars.example
+
+# Secrets / certificates
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# Environment files
+.env
+.env.*
+
+# AWS credentials
+.aws/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
